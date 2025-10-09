@@ -28,23 +28,26 @@ function Hero() {
         {/* content */}
         <div className="w-full px-4 py-6 md:p-8 flex flex-col justify-end lg:justify-between lg:flex-row gap-4 lg:items-end">
           {/* animated name */}
-          <div
-            className="flex text-[#ff8037] font-extrabold w-full lg:w-2/4"
+          <h1
+            className="text-[#ff8037] font-[900] w-full flex"
             style={{
-              fontSize: "clamp(4rem, 6vw, 9rem)", // min 2.5rem, max 9rem, grows with viewport
+              fontSize: "clamp(3.75rem, 12vw + 1rem, 28rem)", // min 6xl, grows very big, max ~448px
+              lineHeight: 0.75,
+              margin: 0,
+              padding: 0,
             }}
           >
-            <div className="letter">G</div>
-            <div className="letter">i</div>
-            <div className="letter">v</div>
-            <div className="letter">e</div>
-            <div className="letter">W</div>
-            <div className="letter">e</div>
-            <div className="letter">l</div>
-            <div className="letter">l</div>
-          </div>
+            <div className="letter inline-block m-0 p-0">G</div>
+            <div className="letter inline-block m-0 p-0">i</div>
+            <div className="letter inline-block m-0 p-0">v</div>
+            <div className="letter inline-block m-0 p-0">e</div>
+            <div className="letter inline-block m-0 p-0">W</div>
+            <div className="letter inline-block m-0 p-0">e</div>
+            <div className="letter inline-block m-0 p-0">l</div>
+            <div className="letter inline-block m-0 p-0">l</div>
+          </h1>
 
-          <p className="text-lg md:text-xl font-semibold tracking-wide w-full lg:w-1/4">
+          <p className="text-lg sm:text-xl md:text-2xl font-semibold tracking-wide w-full lg:w-[40%]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatibus maiores, ipsa natus ab cupiditate.
           </p>
