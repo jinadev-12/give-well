@@ -47,7 +47,7 @@ function Hero() {
             <div className="letter inline-block m-0 p-0">l</div>
           </h1>
 
-          <p className="text-lg sm:text-xl md:text-2xl font-semibold tracking-wide w-full lg:w-[40%]">
+          <p className="text-lg md:text-xl font-semibold tracking-wide w-full lg:w-[40%]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatibus maiores, ipsa natus ab cupiditate.
           </p>
