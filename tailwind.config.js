@@ -6,9 +6,10 @@ export default {
       fontFamily: {
         inter: ['"Inter"', "sans-serif"],
       },
-       colors: {
-        primary: '#FF7C48',
-       },
+      colors: {
+        primary: "#FF7C48",
+        secondary: "#153A43",
+      },
     },
   },
   plugins: [],
