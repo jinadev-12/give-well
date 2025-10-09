@@ -17,7 +17,7 @@ function Navbar() {
         {/* links and hamburger */}
         <div>
           {/* links */}
-          <ul className="lg:flex items-center hidden gap-6 text-[17px] font-[600] text-[#222] ">
+          <ul className="lg:flex items-center hidden gap-[29px] text-[17px] font-[600] text-[#222] ">
             <li>
               <a href="#">Our mission</a>
             </li>
