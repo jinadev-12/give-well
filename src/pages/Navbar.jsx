@@ -7,9 +7,9 @@ function Navbar() {
    };
   return (
     // main
-    <div className="px-3 lg:px-0">
+    <div className="px-8 font-inter h-[48px] md:h-[72px]">
       {/* container */}
-      <div className="w-[96%] max-w-[1500px] font-inter flex justify-between m-auto items-center py-5 ">
+      <div className="flex justify-between h-full m-auto items-center">
         {/* logo */}
         <div className="">
           <h3 className="text-2xl font-extrabold text-[#153a43]">GiveWell</h3>
