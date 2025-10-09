@@ -19,7 +19,7 @@ function Hero() {
 
   return (
     // section hero
-    <div className="h-[100vh] p-4 md:px-8 md:pb-7 font-inter">
+    <div className="h-[100vh] px-4 pb-4 md:px-8 md:pb-7 font-inter">
       {/* background container */}
       <div
         className="h-full w-full bg-cover bg-center text-white rounded-xl md:rounded-2xl flex items-end"
