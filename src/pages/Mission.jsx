@@ -43,7 +43,7 @@ function Mission() {
               We believe that every story deserves to be told and
             </span>
             <span className="line  opacity-0 translate-y-4">
-              every dream deserves a chance to flourish.
+              {"\u00A0"}every dream deserves a chance to flourish.
             </span>
           </h2>
 
