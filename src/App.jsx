@@ -6,6 +6,7 @@ import Mission from './pages/Mission';
 import Stats from './pages/Stats';
 import Ourteam from './pages/Ourteam';
 import Footer from './pages/Footer';
+import Ourvision from './pages/Ourvision';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Hero />
       <Mission/>
       <Ourteam/>
+      <Ourvision/>
       <Stats />
       <Footer />
     </div>
