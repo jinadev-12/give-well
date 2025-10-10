@@ -29,9 +29,9 @@ function Hero() {
         <div className="w-full px-4 py-6 md:p-8 flex flex-col justify-end lg:justify-between lg:flex-row gap-4 lg:items-end">
           {/* animated name */}
           <h1
-            className="text-[#ff8037] font-[900] w-full flex"
+            className="text-primary font-[900] w-full flex"
             style={{
-              fontSize: "clamp(3.75rem, 12vw + 1rem, 28rem)", // min 6xl, grows very big, max ~448px
+              fontSize: "clamp(3.75rem, 12vw + 1rem, 30rem)", // min 6xl, grows very big, max ~448px
               lineHeight: 0.75,
               margin: 0,
               padding: 0,
