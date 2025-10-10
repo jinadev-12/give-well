@@ -1,113 +1,123 @@
 import React from "react";
-import whiteBg from '../assets/greenBg.png'
+import whiteBg from "../assets/greenBg.png";
 import BlueBg from "../assets/blueBg.png";
 import orangeBg from "../assets/stats-orange.jpg";
 import speech from "../assets/stats-img2.jpg";
 import convo from "../assets/stats-img4.jpg";
 
-
 function Stats() {
   return (
     // stats
-    <div className="font-inter text-secondary text px-4 md:px-8 py-16 md:py-24">
+    <div className="font-inter text-secondary px-4 md:px-8 py-16 md:py-24">
       {/* container */}
-      <div className="max-w-[1400px] mx-auto">
+      <div className="">
         {/* upper / title and description */}
-        <div className="md:flex gap-10 md:gap-20 mb-16">
-          <h2 className="md:w-1/2 text-3xl md:text-4xl font-bold leading-tight text-gray-900">
-            From Quiet efforts to real results: The ripple effect of every
+        <div className="md:flex gap-10 md:gap-16 mb-12 md:mb-16">
+          <h2 className="md:w-1/2 text-[32px] md:text-[40px] lg:text-[52px] font-[900] leading-tight mb-4">
+            From quiet efforts to real results: The ripple effect of every
             donation
           </h2>
-          <p className="md:w-1/2 text-gray-600 leading-relaxed text-lg">
-            With every donation, we've been able to reach farther and do more.
-            In just the past 12 months, we’ve provided resources to over 50
-            grassroots initiatives, supported 100+ volunteers working on the
-            ground, and directly impacted communities facing real
-            challenges—with real solutions. From mental health support to
-            educational access, you turned ideas into measurable change.
+          <p className="md:w-1/2 leading-normal text-xl">
+            Each donation builds momentum. In the last year alone, we've backed
+            more than 50 grassroots initiatives, empowered hundreds of
+            volunteers, and helped communities find real, lasting solutions to
+            challenges — from mental health to clean water access and
+            education.25,000 individuals through ongoing community programs and
+            immediate response efforts across regions.
           </p>
         </div>
 
         {/* lower / stats grid */}
         <div
           className="
-            grid grid-cols-1 gap-6
-            md:grid-cols-2 md:grid-rows-3
-            lg:grid-cols-3 lg:grid-rows-2
+            grid grid-cols-1 gap-8
+            md:grid-cols-2 lg:grid-cols-3
           "
         >
-          {/* Big card */}
+          {/* Card 1 - now takes entire first column on lg */}
           <div
             className="
-    relative overflow-hidden
-    p-8 rounded-2xl shadow-sm flex flex-col justify-center items-start
-    md:col-span-2 md:row-span-1
-    lg:col-span-1 lg:row-span-2
-    bg-cover bg-center
-  "
+              relative overflow-hidden
+              p-8 rounded-lg shadow-sm flex flex-col justify-center items-start
+              md:col-span-2 lg:col-span-1 lg:row-span-2
+              bg-cover bg-center mb-4
+            "
             style={{ backgroundImage: `url(${orangeBg})` }}
           >
-            {/* overlay (optional subtle fade to make text readable) */}
             <div className="absolute inset-0 bg-white/70" />
-
-            {/* card content */}
-            <div className="relative w-full">
-              <h3 className="text-2xl font-bold mb-16">
-                Products supported through local programs
+            {/* content */}
+            <div className="relative w-full lg:flex lg:flex-col lg:justify-end h-full">
+              <h3 className="text-xl md:text-2xl  font-bold mb-8 md:mb-16 lg:mb-auto">
+                Products Distributed Locally
               </h3>
-              <div className="text-7xl font-extrabold w-full text-right border-b border-black/20 pb-2">
+              <div className="text-6xl md:text-7xl lg:text-[clamp(4rem,8vw,10rem)] font-bold w-full text-right border-b border-secondary pb-2">
                 256
               </div>
+
               <p className="text-gray-700 text-base text-right pt-2">
-                Over 25,000 people directly supported through community
-                programs, crisis response, and ongoing care initiatives.
+                Essential supplies, tools, and resources reaching more than
+                25,000 individuals through ongoing community programs and
+                immediate response efforts across regions.
               </p>
             </div>
           </div>
 
-          {/* Remaining 4 cards */}
-          <div className="bg-[#f9f9f9] overflow-hidden rounded-2xl shadow-sm flex flex-col justify-center items-start">
-            <img src={convo} className="object-cover h-full" alt="" />
+          {/* Card 2 - Image */}
+          <div className="bg-[#f9f9f9] overflow-hidden rounded-lg shadow-sm flex flex-col items-start mb-4">
+            <img
+              src={convo}
+              className="object-cover w-full h-full"
+              alt="Community gathering and discussions"
+            />
           </div>
 
+          {/* Card 3 */}
           <div
-            className="bg-[#f9f9f9] p-6 rounded-2xl shadow-sm flex flex-col justify-center items-start bg-cover bg-center"
+            className="bg-[#f9f9f9] rounded-lg shadow-sm flex flex-col justify-center items-start bg-cover bg-center p-8 mb-4"
             style={{ backgroundImage: `url(${BlueBg})` }}
           >
             <div className="relative w-full">
-              <h3 className="text-2xl font-bold mb-16">
-                Products supported through local programs
+              <h3 className="text-xl md:text-2xl font-bold mb-8 md:mb-16">
+                Volunteers on the Ground
               </h3>
-              <div className="text-7xl font-extrabold w-full text-right border-b border-black/20 pb-2">
-                256
+              <div className="text-6xl md:text-7xl lg:text-[clamp(4rem,8vw,10rem)] font-bold w-full text-right border-b border-secondary pb-2">
+                120+
               </div>
               <p className="text-gray-700 text-base text-right pt-2">
-                Over 25,000 people directly supported through community
-                programs, crisis response, and ongoing care initiatives.
+                Over 120 dedicated volunteers providing consistent field
+                support, educational guidance, and emergency relief — ensuring
+                every donated effort reaches those who need it most.
               </p>
             </div>
           </div>
 
+          {/* Card 4 - Image (swapped on md and up) */}
+          <div className="bg-[#f9f9f9] rounded-lg shadow-sm flex flex-col items-start overflow-hidden mb-4 order-4 md:order-5">
+            <img
+              src={speech}
+              className="object-cover w-full h-full"
+              alt="Awareness session and public speaking"
+            />
+          </div>
+
+          {/* Card 5 (swapped on md and up) */}
           <div
-            className="bg-[#f9f9f9] p-6 rounded-2xl shadow-sm flex flex-col justify-center items-start bg-cover bg-center"
+            className="bg-[#f9f9f9] p-8 rounded-lg shadow-sm flex flex-col justify-center items-start bg-cover bg-center mb-4 order-5 md:order-4"
             style={{ backgroundImage: `url(${whiteBg})` }}
           >
             <div className="relative w-full">
-              <h3 className="text-2xl font-bold mb-16">
-                Products supported through local programs
+              <h3 className="text-xl md:text-2xl font-bold mb-8 md:mb-16">
+                Communities Empowered
               </h3>
-              <div className="text-7xl font-extrabold w-full text-right border-b border-black/20 pb-2">
-                256
+              <div className="text-6xl md:text-7xl lg:text-[clamp(4rem,8vw,10rem)] font-bold w-full text-right border-b border-secondary pb-2">
+                50+
               </div>
               <p className="text-gray-700 text-base text-right pt-2">
-                Over 25,000 people directly supported through community
-                programs, crisis response, and ongoing care initiatives.
+                Over 50 local communities now run their own initiatives — from
+                youth leadership programs to sustainable food networks — all
+                sparked by your collective support and contributions.
               </p>
             </div>
-          </div>
-
-          <div className="bg-[#f9f9f9] rounded-2xl shadow-sm flex flex-col justify-center items-start overflow-hidden">
-            <img src={speech} className="object-cover h-full" alt="" />
           </div>
         </div>
       </div>
