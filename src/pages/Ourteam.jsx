@@ -15,7 +15,7 @@ function Ourteam() {
           <h4 className="text-base font-[600]">Our team</h4>
           {/* text */}
           <div className="mx-auto text-center  md:w-[80%]">
-            <h1 className="text-[32px] md:text-[40px] lg:text-[52px] font-[900] leading-10  ">
+            <h1 className="text-[32px] md:text-[40px] lg:text-[52px] font-[900] leading-tight  ">
               Thanks to
               <span className="inline-block">
                 <img
