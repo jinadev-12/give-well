@@ -48,7 +48,7 @@ function Mission() {
           </h2>
 
           <div className="flex gap-8 text-base font-medium mt-10">
-            <button className="bg-secondary text-white py-2 px-8 rounded-3xl">
+            <button className="bg-secondary text-white py-2 px-8 rounded-3xl hover:bg-[#225763]">
               Our Impact
             </button>
             <button className="font-[600] px-2 items-center flex">
