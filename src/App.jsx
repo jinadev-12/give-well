@@ -5,6 +5,7 @@ import Hero from "./pages/Hero";
 import Mission from './pages/Mission';
 import Stats from './pages/Stats';
 import Ourteam from './pages/Ourteam';
+import Footer from './pages/Footer';
 
 
 
@@ -17,7 +18,7 @@ function App() {
       <Mission/>
       <Ourteam/>
       <Stats />
-
+      <Footer />
     </div>
   );
 }
