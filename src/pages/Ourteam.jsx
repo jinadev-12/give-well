@@ -9,6 +9,10 @@ function Ourteam() {
     <div className="py-20">
       {/* container */}
       <div className="w-[90%] max-w-[1300px] text-secondary mx-auto font-inter">
+
+
+
+        
         {/* container-box */}
         <div className="flex flex-col gap-10 text-center">
           {/* heading-title */}
