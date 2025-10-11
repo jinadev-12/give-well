@@ -55,6 +55,7 @@ function Empower() {
 
   return (
     <div
+    id="empower"
       className="p-4 md:p-8 font-inter text-secondary"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}

@@ -8,7 +8,7 @@ import convo from "../assets/stats-img4.jpg";
 function Stats() {
   return (
     // stats
-    <div className="font-inter text-secondary px-4 md:px-8 py-16 md:py-24">
+    <div id="impact" className="font-inter text-secondary px-4 md:px-8 py-16 md:py-24">
       {/* container */}
       <div className="">
         {/* upper / title and description */}

@@ -6,7 +6,7 @@ import ourteamthree from "../assets/ourteam-3.jpg";
 function Ourteam() {
   return (
     // main
-    <div className="py-20">
+    <div id='team' className="py-20">
       {/* container */}
       <div className="w-[90%] max-w-[1300px] text-secondary mx-auto font-inter">
 

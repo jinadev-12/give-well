@@ -19,16 +19,16 @@ function Navbar() {
           {/* links */}
           <ul className="lg:flex items-center hidden gap-[29px] text-[17px] font-[600] text-[#222] ">
             <li>
-              <a href="#">Our mission</a>
+              <a href="#mission">Our mission</a>
             </li>
             <li>
-              <a href="#">Empower</a>
+              <a href="#empower">Empower</a>
             </li>
             <li>
-              <a href="#">The team</a>
+              <a href="#team">The team</a>
             </li>
             <li>
-              <a href="#">Our impact</a>
+              <a href="#impact">Our impact</a>
             </li>
             <li className="bg-primary text-[#153a43] rounded-3xl px-8 py-2 font-[500]">
               <a href="#">Donate</a>
@@ -59,16 +59,16 @@ function Navbar() {
               {/* links */}
               <ul className="flex flex-col gap-6 text-[18px] font-[600] w-[95%] text-[#222] top-0 relative text-left">
                 <li>
-                  <a href="#">Our mission</a>
+                  <a href="#mission">Our mission</a>
                 </li>
                 <li>
-                  <a href="#">Empower</a>
+                  <a href="#empower">Empower</a>
                 </li>
                 <li>
-                  <a href="#">The team</a>
+                  <a href="#team">The team</a>
                 </li>
                 <li>
-                  <a href="#">Our impact</a>
+                  <a href="#impact">Our impact</a>
                 </li>
 
                 <li className="bg-primary text-[#153a43] rounded-3xl px-8 py-2 w-[100%] font-[500] text-center">

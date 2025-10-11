@@ -25,7 +25,7 @@ function Mission() {
    }, []);
 
   return (
-    <div className="mission-section overflow-x-hidden">
+    <div id="mission" className="mission-section overflow-x-hidden">
       <div className="max-w-[1300px] w-[90%] m-auto text-secondary font-inter">
         <div className="lg:w-[1024px] m-auto my-20">
           <h2 className="lg:text-[52px] md:tracking-[-0.4px] tracking-[-0.32px] lg:tracking-[-0.52px] md:text-[40px] text-[32px] font-[900] leading-[40px] lg:leading-tight md:leading-[50px] px-2">
