@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/footer.png";
+
 
 function Footer() {
   return (
@@ -10,8 +10,9 @@ function Footer() {
       }}
     >
       {/* Upper Section */}
-      <div className="bg-white rounded-2xl p-6 sm:p-10 md:p-14 lg:p-16 shadow-sm">
-        <div className="text-center space-y-8">
+      <div className="relative bg-white rounded-2xl p-6 sm:p-10 md:p-14 lg:p-16 shadow-sm overflow-hidden">
+        {/* Content */}
+        <div className="relative text-center space-y-8">
           <h2 className="mx-auto text-[28px] sm:text-[36px] md:text-[44px] lg:text-[52px] font-extrabold leading-tight max-w-4xl">
             Help us turn small actions into lasting change. Your donation
             supports the people and projects building a better future — one step
