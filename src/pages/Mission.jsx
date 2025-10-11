@@ -25,9 +25,9 @@ function Mission() {
    }, []);
 
   return (
-    <div className="mission-section h-[100vh] overflow-x-hidden">
+    <div className="mission-section overflow-x-hidden">
       <div className="max-w-[1300px] w-[90%] m-auto text-secondary font-inter">
-        <div className="lg:w-[1024px] m-auto mt-20">
+        <div className="lg:w-[1024px] m-auto my-20">
           <h2 className="lg:text-[52px] md:tracking-[-0.4px] tracking-[-0.32px] lg:tracking-[-0.52px] md:text-[40px] text-[32px] font-[900] leading-[40px] lg:leading-tight md:leading-[50px] px-2">
             <span className="line  text-lg md:mr-16 mr-6 font-medium opacity-0 translate-y-4">
               Our Mission
