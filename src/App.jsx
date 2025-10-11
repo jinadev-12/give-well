@@ -7,6 +7,7 @@ import Stats from './pages/Stats';
 import Ourteam from './pages/Ourteam';
 import Footer from './pages/Footer';
 import Ourvision from './pages/Ourvision';
+import Empower from './pages/Empower';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
       <Hero />
       <Mission/>
+      <Empower />
       <Ourteam/>
       <Ourvision/>
       <Stats />
