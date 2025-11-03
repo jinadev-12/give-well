@@ -14,24 +14,22 @@ function Ourvision() {
       style={{
         backgroundImage: "linear-gradient(#dbc5dc, #8fb0d6)",
       }}
-      className="overflow-hidden mx-auto  py-20"
+      className="overflow-hidden mx-auto py-20 px-4 sm:px-8"
     >
       {/* container */}
       <div className="font-inter text-secondary mx-auto">
         {/* text */}
-
         <div className="flex flex-col gap-10 text-center max-w-[1300px] w-[90%] mx-auto mb-10">
-          {/* heading-title */}
           <h4 className="text-base font-[600]">Our vision</h4>
-          {/* text */}
-          <div className="mx-auto text-center  md:w-[80%]">
-            <h1 className="text-[32px] md:text-[40px] lg:text-[52px] font-[900] leading-tight  ">
+
+          <div className="mx-auto text-center md:w-[80%]">
+            <h1 className="text-[32px] md:text-[40px] lg:text-[52px] font-[900] leading-tight">
               We imagine a future where kindness leads and progress follows.
             </h1>
           </div>
-          {/* paragraph */}
+
           <div>
-            <p className=" leading-normal text-xl px-16 mb-5">
+            <p className="leading-normal text-xl sm:px-16 mb-5">
               Our work is grounded in the belief that small actions can spark
               lasting change. As the world evolves, we stay committed to
               uplifting efforts that empower and connect. We act not out of
@@ -40,10 +38,11 @@ function Ourvision() {
             </p>
           </div>
         </div>
+
         {/* image-container */}
-        <div className="flex  gap-3 w-full h-[600px] m-auto">
+        <div className="flex gap-3 w-full h-[400px] sm:h-[600px] m-auto">
           {/* top-left div */}
-          <div className="flex items-center  w-[0%] md:w-[10%]  ">
+          <div className="hidden sm:flex items-center w-[10%]">
             <img
               src={visionone}
               alt=""
@@ -52,7 +51,7 @@ function Ourvision() {
           </div>
 
           {/* left div */}
-          <div className="flex   w-[20%] md:w-[20%]  flex-col justify-between gap-3 py-4 md:py-0">
+          <div className="hidden sm:flex w-[20%] flex-col justify-between gap-3 py-4">
             <img
               src={visiontwo}
               alt=""
@@ -65,17 +64,17 @@ function Ourvision() {
             />
           </div>
 
-          {/* center div */}
-          <div className="flex flex-none  items-center w-[50%] md:w-[40%] ">
+          {/* center div (always visible) */}
+          <div className="flex flex-none items-center w-full sm:w-[40%]">
             <img
               src={visionthree}
               alt=""
-              className="md:h-[93%] h-full w-full object-cover rounded-2xl object-center"
+              className="h-full w-full object-cover rounded-2xl object-center"
             />
           </div>
 
           {/* right div */}
-          <div className="flex flex-none  w-[20%] md:w-[20%] flex-col justify-between gap-3 py-4 md:py-0">
+          <div className="hidden sm:flex flex-none w-[20%] flex-col justify-between gap-3 py-4">
             <img
               src={visionfour}
               alt=""
@@ -89,7 +88,7 @@ function Ourvision() {
           </div>
 
           {/* top-right div */}
-          <div className="flex items-center w-[0%] md:w-[10%]">
+          <div className="hidden sm:flex items-center w-[10%]">
             <img
               src={visionsix}
               alt=""
